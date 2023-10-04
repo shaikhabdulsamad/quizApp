@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Quiz App</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="wrapper">	
+<div class="main">
+
+<div id="start-section">
+	
+		<h1>QUIZ APP</h1>
+		<input id="user-name" type="text" name="" placeholder="Enter your name">
+		<button onclick="start()">Start</button>
+<div class="quiz-note">
+	
+	<p><span style="color: red;">Note:</span> This quiz is based on computer basic knowledge, consists of 20 questions that you need to answer within a time limit of 60 seconds.</p>
+	
+</div>
+		<div class="developer">
+			<p>Developed by A.S.WebDev.</p>
+		</div>
+
+</div>
+
+
+
+<div id="quiz-section">
+
+	<div class="name">
+		<h1 id="name-text">User</h1>
+	</div>
+	<div class="counter-timer">
+		<p id="qcounter"></p>
+		<span>Time Left: <span id="timer-text">60</span></span>
+	</div>
+	
+	<div id="ques-page">
+		<div id="question-container">
+			<p id="question-text"></p>
+		</div>
+		<div id="choices-container">
+			
+		</div>
+		<div class="Btns">
+			<div class="skip">
+				<button id="skip-btn">Skip</button>
+			</div>
+			<div class="next">
+		<button id="next-btn">Next</button>
+		
+		</div>
+		</div>
+	</div>
+
+</div>
+
+
+<div id="result-section">
+
+<div>
+		<div class="result">
+		<h1 id="result-user">Thanks</h1>
+	</div>
+	<div id="result-container">
+			<p id="result-text"></p>
+		</div>
+		
+			
+			<div class="back">
+		<button id="back-btn">Back</button>
+		
+		
+		</div>
+
+		</div>
+	
+</div>
+
+
+
+</div>
+</div>
+
+<script src="app.js"></script>
+
+
+
+</body>
+</html>
