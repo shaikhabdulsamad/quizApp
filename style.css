@@ -33,7 +33,7 @@ button{
 
 	background: white;
 
-	margin: 20px auto 0 auto;
+	margin:  auto;
 	padding: 20px;
 
 }
@@ -84,9 +84,13 @@ cursor: pointer;
 font-weight: 600;
 font-size: 18px;
 }
-.counter-timer{
+.counter-timer p{
 	font-weight: 600;
 	font-size: 20px;
+}
+.counter-timer span{
+	font-weight: 600;
+	font-size: 16px;
 }
 #choices-container{
 	display: flex;
@@ -123,7 +127,7 @@ color: white;
 .Btns{
 	display: flex;
 	justify-content: space-between;
-	margin-top: 150px;
+	margin-top: 120px;
 }
 
 .back{
