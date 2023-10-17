@@ -1,7 +1,7 @@
 
 :root{
 	--first: #800080;
-	--second: #662d91;
+	--second: #4B0082;
 	--third: #452c63;
 }
 
@@ -140,7 +140,7 @@ color: white;
 	font-size: 16px;
 }
 
-#choices-container button:hover{
+/* #choices-container button:hover{
 background-color: var(--first);
 color: white;
 
@@ -149,7 +149,7 @@ color: white;
 	background-color: var(--first);
 	color: white;
 	
-	}
+	} */
 .Btns{
 	display: flex;
 	justify-content: space-between;
@@ -159,10 +159,10 @@ color: white;
 	background-color: white;
 	color: var(--second);
 }
-.Btns button:hover{
+/* .Btns button:hover{
 	background-color: purple;
 	color: white;
-}
+} */
 
 .back{
 	
@@ -174,10 +174,10 @@ color: white;
 	background-color: white;
 	color: var(--second);
 }
-.back button:hover{
+/* .back button:hover{
 	background-color: purple;
 	color: white;
-}
+} */
 #result-text{
 	font-weight: bold;
 	font-size: 24px;
@@ -186,7 +186,7 @@ color: white;
 	font-size: 12px;
 	color: white;
 	text-align: center;
-	margin-top: 80px;
+	margin-top: 60px;
 }
 
 @media (max-width: 1024px){
