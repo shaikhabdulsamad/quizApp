@@ -10,7 +10,7 @@ body{
 	padding: 0;
 	box-sizing: border-box;
 	font-family: sans-serif;
-
+background: var(--second);
 }
 .wrapper{
 display: flex;
@@ -61,17 +61,17 @@ button{
 width: 90%;
 height: 50px;
 outline: none;
-margin-top: 30px;
+margin-top: 10px;
 font-size: 18px;
 padding: 0 10px;
 }
 
 #start-section button{
-	width: 30%;
+	width: 50%;
 	height: 50px;
 	outline: none;
 	border: none;
-	margin-top: 50px;
+	margin-top: 40px;
 	background-color: white;
 	color: var(--second);
 	font-weight: 600;
@@ -89,7 +89,7 @@ margin-top: 30px;
 font-size: 18px;
 padding: 0 10px;
 	margin-top: 20px;
-width: 93%;
+width: 94%;
 /* height: 35px; */
 outline: none;
 border: none;
@@ -186,7 +186,7 @@ color: white;
 	font-size: 12px;
 	color: white;
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 80px;
 }
 
 @media (max-width: 1024px){
