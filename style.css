@@ -54,31 +54,46 @@ button{
  }
 
 #start-section #user-name{
-width: 85%;
+width: 90%;
 height: 40px;
 outline: none;
-margin-top: 20px;
+margin-top: 30px;
 font-size: 18px;
 padding: 0 10px;
 }
 
 #start-section button{
-width: 88%;
+	width: 94%;
+	height: 50px;
+	outline: none;
+	border: none;
+	margin-top: 30px;
+	background-color: var(--first);
+	color: white;
+	font-weight: 600;
+	/*padding: 20px 0;*/
+	font-size: 18px;
+	}
+
+#subjects{
+	/* width: 90%; */
 height: 50px;
+/* outline: none; */
+margin-top: 30px;
+font-size: 18px;
+padding: 0 10px;
+	margin-top: 20px;
+width: 94%;
+/* height: 35px; */
 outline: none;
 border: none;
-margin: 20px 0;
-background-color: var(--first);
-color: white;
-font-weight: 600;
-padding: 0 10px;
-font-size: 16px;
-cursor: pointer;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+
 .quiz-note{
 	margin-top: 10px;
 	font-size: 14px;
-	color: grey;
+	color: black;
 }
 #question-text{
 font-weight: 600;
@@ -144,7 +159,7 @@ color: white;
 	font-size: 12px;
 	color: gray;
 	text-align: center;
-	margin-top: 200px;
+	margin-top: 150px;
 }
 
 @media (max-width: 1024px){
@@ -154,5 +169,5 @@ color: white;
 	}
 	#choices-container button{
 		width: 80%;
-	
+	}
 }

@@ -3,7 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Quiz App</title>
+	<title>A.S.Quiz App</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -12,12 +13,29 @@
 
 <div id="start-section">
 	
-		<h1>QUIZ APP</h1>
-		<input id="user-name" type="text" name="" placeholder="Enter your short name" maxlength="10">
-		<button onclick="start()">Start</button>
+		<h1>A.S. QUIZ APP</h1>
+		<input id="user-name" type="text" name="" placeholder="Enter your name (Optional)" maxlength="10">
+		<select id="subjects" required>
+			<option value="">Select subject</option>
+			<option value="computer">Computer</option>
+			<option value="english">English</option>
+			<option value="general">General Knowledge</option>
+			<option value="islamic">Islamic Knowledge</option>
+			<option value="mathematics">Mathematics</option>
+			<option value="science">Science</option>
+		</select>
+		<button id="startBtn">Start</button>
 <div class="quiz-note">
 	
-	<p><span style="color: red;">Note:</span> This quiz is based on computer basic knowledge, consists of 20 questions that you need to answer within a time limit of 60 seconds.</p>
+	<p><span style="color: purple; font-weight: bold;">Welcome to the Quiz! <br></span> 
+
+		This quiz features a total of 20 questions on the subject of your choice. You'll have a time limit of 99 seconds to answer all the questions. To get started, please follow these steps: <br>
+		
+		1) Select your preferred subject from the options provided. <br>
+		2) Click the 'Start' button to begin the quiz. <br>
+		Remember to answer as many questions as you can within the time limit. Good luck!
+	
+	</p>
 	
 </div>
 		<div class="developer">
@@ -35,7 +53,7 @@
 	</div>
 	<div class="counter-timer">
 		<p id="qcounter"></p>
-		<span>Time Left: <span id="timer-text">60</span></span>
+		<span>Time Left: <span id="timer-text">99</span></span>
 	</div>
 	
 	<div id="ques-page">
