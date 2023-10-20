@@ -90,7 +90,7 @@ margin-top: 30px;
 font-size: 18px;
 padding: 0 10px;
 	margin-top: 20px;
-width: 96%;
+width: 93%;
 /* height: 35px; */
 outline: none;
 border: none;
@@ -137,9 +137,9 @@ color: white;
 	border: none;
 	padding: 10px;
 	background-color: white;
-	color: black;
+	color: var(--second);
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 18px;
 	border-radius: 5px;
 }
 
@@ -186,12 +186,24 @@ color: white;
 #result-text{
 	font-weight: bold;
 	font-size: 24px;
+	line-height: 40px;
+}
+#result-user{
+	line-height: 50px;
 }
 .developer{
 	font-size: 12px;
 	color: white;
 	text-align: center;
 	margin-top: 60px;
+}
+
+.feedback span{
+	font-size: 24px;
+}
+.feedback span a{
+text-decoration: none;
+color: white;
 }
 
 @media (max-width: 1024px){
@@ -201,5 +213,11 @@ color: white;
 	}
 	#choices-container button{
 		width: 80%;
+	}
+	
+}
+@media (max-width: 480px){
+	#subjects{
+		width: 96%;
 	}
 }

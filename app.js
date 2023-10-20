@@ -621,6 +621,7 @@ islamic: [
 var startSection = document.getElementById('start-section');
 var quizSection = document.getElementById('quiz-section');
 var resultSection = document.getElementById('result-section');
+var subName = document.getElementById('sub-name')
 var userName = document.getElementById('user-name');
 var nameText = document.getElementById('name-text');
 var subjects = document.getElementById('subjects');
@@ -682,6 +683,8 @@ function start(){
 
 
 function quizLoad(){
+
+ subName.textContent = `${subjects.value.toUpperCase()} QUIZ`
 	
 qcounter.textContent = `Question No. ${questionCounter++} / ${questions[subjects.value].length}`
 
@@ -748,7 +751,7 @@ quizSection.style.display = 'none';
 startSection.style.display = 'none';
 resultSection.style.display = 'block';
 
-	resultText.textContent = `Your score in ${subjects.value.toUpperCase()} is ${score} out of ${questions[subjects.value].length}!`;
+	resultText.innerHTML = `Your score in <br> ${subjects.value.toUpperCase()} QUIZ <br> is ${score} out of ${questions[subjects.value].length}!`;
 	nextBtn.style.display = 'none';
 	skipBtn.style.display = 'none';
 	backBtn.style.display = 'block';
@@ -759,7 +762,7 @@ resultSection.style.display = 'block';
 		resultUser.textContent = 'Thanks!'
 	}
 	else{
-		resultUser.textContent = `Thanks ${userName.value.toUpperCase()}!`
+		resultUser.innerHTML = `Thanks <br> ${userName.value.toUpperCase()}!`
 	}
 }
 
