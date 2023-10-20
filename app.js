@@ -748,7 +748,7 @@ quizSection.style.display = 'none';
 startSection.style.display = 'none';
 resultSection.style.display = 'block';
 
-	resultText.textContent = `Your score is ${score} out of ${questions[subjects.value].length}!`;
+	resultText.textContent = `Your score in ${subjects.value.toUpperCase()} is ${score} out of ${questions[subjects.value].length}!`;
 	nextBtn.style.display = 'none';
 	skipBtn.style.display = 'none';
 	backBtn.style.display = 'block';

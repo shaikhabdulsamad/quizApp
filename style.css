@@ -1,7 +1,7 @@
 
 :root{
 	--first: #800080;
-	--second: #4B0082;
+	--second: #1f2847;
 	--third: #452c63;
 }
 
@@ -11,6 +11,7 @@ body{
 	box-sizing: border-box;
 	font-family: sans-serif;
 background: var(--second);
+min-height: 100vh;
 }
 .wrapper{
 display: flex;
@@ -23,8 +24,8 @@ align-items: center;
 button{
 	border: none;
 	outline: none;
-	background-color: var(--first);
-	color: white;
+	/* background-color: var(--first); */
+	/* color: white; */
 	padding: 10px 20px;
 	font-weight: 600;
 	cursor: pointer;
@@ -61,13 +62,13 @@ button{
 width: 90%;
 height: 50px;
 outline: none;
-margin-top: 10px;
+margin-top: 30px;
 font-size: 18px;
 padding: 0 10px;
 }
 
 #start-section button{
-	width: 50%;
+	width: 90%;
 	height: 50px;
 	outline: none;
 	border: none;
@@ -89,7 +90,7 @@ margin-top: 30px;
 font-size: 18px;
 padding: 0 10px;
 	margin-top: 20px;
-width: 94%;
+width: 96%;
 /* height: 35px; */
 outline: none;
 border: none;
@@ -103,8 +104,8 @@ border: none;
 }
 #question-text{
 font-weight: 600;
-font-size: 18px;
-height: 60px;
+font-size: 22px;
+height: 80px;
 color: white;
 }
 .counter-timer p{
@@ -121,6 +122,7 @@ color: white;
 	display: flex;
 	flex-direction: column;
 	/* margin-top: 30px; */
+	height: 250px;
 	
 }
 .counter-timer{
@@ -138,6 +140,7 @@ color: white;
 	color: black;
 	font-weight: 500;
 	font-size: 16px;
+	border-radius: 5px;
 }
 
 /* #choices-container button:hover{
@@ -158,6 +161,7 @@ color: white;
 .Btns button{
 	background-color: white;
 	color: var(--second);
+	border-radius: 5px;
 }
 /* .Btns button:hover{
 	background-color: purple;
@@ -173,6 +177,7 @@ color: white;
 .back button{
 	background-color: white;
 	color: var(--second);
+	border-radius: 5px;
 }
 /* .back button:hover{
 	background-color: purple;
